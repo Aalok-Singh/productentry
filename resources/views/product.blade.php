@@ -59,7 +59,7 @@
        console.log(data.Error_Message)
          if(data.Success == "Product stored"){
             $("#Message").html("Product stored").show();
-            window.location.href = '/path';
+            window.location.href = '/product';
             
          }else if(data.Error_Message.length){
             $('#nameError').text(data.Error_Message.name);
